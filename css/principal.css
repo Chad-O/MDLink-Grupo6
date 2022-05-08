@@ -5,22 +5,27 @@ Laurel Green: #ADBF87
 Celadon: #BAD9A2
 Cambridge Blue: #9DC4B5
 */
+body{
+    background-color:#7af2e25b;
+}
 #login{
     width: 12em;   
     text-transform: uppercase;
-    background-color:#9DC4B5 ;
+    background-color:#9dc4b55e;
     font-weight: 500;
+    box-shadow: 2px 2px 0.25em;
 }
 #signup{
     width: 12em;
     text-transform: uppercase;
-    background-color:#9DC4B5 ;
+    background-color:#9dc4b55e;
     font-weight: 500;
+    box-shadow: 2px 2px 0.25em;
 }
 .areaEsp{
     margin-top: 0.75em;
     padding-left: 20px;
-    background-color: #9DC4B5;
+    background-color:#9dc4b55e;
     height: 2.em;
 }
 #p{
@@ -30,32 +35,38 @@ Cambridge Blue: #9DC4B5
 }
 #t{
     position:absolute;
+    border-radius: 20px;
     top: 0; bottom: 0; left: 0;
     margin-top: auto;
     margin-bottom: auto;
     margin-right:px;
     height: 7vh; 
+    box-shadow: 2px 2px 1em;
 }
 .textEsp{
     margin-right:20px;
-    font-size:25px;
+    font-size:22px;
+    font-weight: 500;
 }
 
 .foro{
     width: 100%;
     text-transform: uppercase;
-    background-color:#9DC4B5 ;
+    background-color:#9dc4b55e;
     font-weight: 500;
+    box-shadow: 2px 2px 0.25em;
 }
 .calmed{
     width: 50%;
     text-transform: uppercase;
-    background-color:#9DC4B5 ;
+    background-color:#9dc4b55e;
     font-weight: 500;
+    box-shadow: 2px 2px 0.25em;
 }
 .notimp{
     width: 100%;
     text-transform: uppercase;
-    background-color:#9DC4B5 ;
+    background-color:#9dc4b55e;
     font-weight: 500;
+    box-shadow: 2px 2px 0.25em;
 }
