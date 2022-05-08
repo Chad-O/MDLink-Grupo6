@@ -17,11 +17,11 @@ Cambridge Blue: #9DC4B5
     background-color:#9DC4B5 ;
     font-weight: 500;
 }
-
-/*AreaEsp no funciona responsive correctamente. El color sale del #t*/
 .areaEsp{
     margin-top: 0.75em;
-    
+    padding-left: 20px;
+    background-color: #9DC4B5;
+    height: 2.em;
 }
 #p{
     position:relative;
@@ -34,10 +34,7 @@ Cambridge Blue: #9DC4B5
     margin-top: auto;
     margin-bottom: auto;
     margin-right:px;
-    height: 7vh;
-    background-color: #9DC4B5;
-    border-radius: 110px;
-    
+    height: 7vh; 
 }
 .textEsp{
     margin-right:20px;
