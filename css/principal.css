@@ -17,6 +17,8 @@ Cambridge Blue: #9DC4B5
     background-color:#9DC4B5 ;
     font-weight: 500;
 }
+
+/*AreaEsp no funciona responsive correctamente. El color sale del #t*/
 .areaEsp{
     margin-top: 0.75em;
     
