@@ -17,6 +17,10 @@ Cambridge Blue: #9DC4B5
     background-color:#9DC4B5 ;
     font-weight: 500;
 }
+.areaEsp{
+    margin-top: 0.75em;
+    
+}
 #p{
     position:relative;
     height: 50vh;
@@ -25,9 +29,13 @@ Cambridge Blue: #9DC4B5
 #t{
     position:absolute;
     top: 0; bottom: 0; left: 0;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-right:px;
-    height: 5vh;
+    height: 7vh;
+    background-color: #9DC4B5;
+    border-radius: 110px;
+    
 }
 .textEsp{
     margin-right:20px;
