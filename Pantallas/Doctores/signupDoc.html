@@ -35,16 +35,16 @@
           <h4 class="mx-2">Datos Personales</h4>
           <div class="col-md-12">
             <div class="input-group mb-3">
-              <input type="text" class="form-control mx-2" placeholder="Nombres" aria-label="Username">
-              <input type="text" class="form-control mx-2" placeholder="Apellido Paterno" aria-label="ApellidoPat">
-              <input type="text" class="form-control mx-2" placeholder="Apellido Materno" aria-label="ApellidoMat">
+              <input type="text" class="form-control mx-2" placeholder="Nombres" aria-label="Username" id="userDoc">
+              <input type="text" class="form-control mx-2" placeholder="Apellido Paterno" aria-label="ApellidoPat" id="appDoc">
+              <input type="text" class="form-control mx-2" placeholder="Apellido Materno" aria-label="ApellidoMat" id="apmDoc">
             </div>
             <div class="input-group mb-3">
-              <input type="email" class="form-control mx-2" placeholder="Correo Electrónico" aria-label="Correo">
+              <input type="email" class="form-control mx-2" placeholder="Correo Electrónico" aria-label="Correo" id="emailDoc">
             </div>
             <div class="input-group mb-3">
-              <input type="password" class="form-control mx-2" placeholder="Contraseña" aria-label="Contraseña">
-              <input type="password" class="form-control mx-2" placeholder="Confirme su contraseña" aria-label="Confirmseña">
+              <input type="password" class="form-control mx-2" placeholder="Contraseña" aria-label="Contraseña" id="passDoc">
+              <input type="password" class="form-control mx-2" placeholder="Confirme su contraseña" aria-label="Confirmseña" id="confimpassDoc">
             </div>
             <div class="input-group mb-3">
               <div class="mx-2 my-2"><label for="especialSelect">Especialidad</label></div>
@@ -111,26 +111,26 @@
               <div class="input-group-prepend">
                 <div class="input-group-text" id="soles">S/.</div>
               </div>
-              <input type="text" class="form-control" id="precioCons" placeholder="Precio por consulta">
+              <input type="text" class="form-control"placeholder="Precio por consulta"  id="precioCons">
               </div>
-                <input type="link" class="form-control mx-2" placeholder="Link de plataforma de atencion" aria-label="linkAten">
+                <input type="text" class="form-control mx-2" placeholder="Link de plataforma de atencion / Direccion de consultorio" aria-label="linkAten" id="dirAtencion">
           </div>
         </div>
         <div class="row mt-4">
           <h4 class="mx-2">Educación</h4>
           <div class="col-md-12">
             <div class="input-group mb-3">
-              <input type="text" class="form-control mx-2" placeholder="Institución educativa">
-              <input type="text" class="form-control mx-2" placeholder="Título">
+              <input type="text" class="form-control mx-2" placeholder="Institución educativa" id="instEducactiva">
+              <input type="text" class="form-control mx-2" placeholder="Título" id="tituloExpedido">
             </div>
             <div class="input-group mb-3">
               <div class="my-2 mx-2">Fecha de Inicio</div>
-              <input type="date" class="form-control mx-2">
+              <input type="date" class="form-control mx-2" id="fechaInicio">
               <div class="my-2 mx-2">Fecha de egreso</div>
-              <input type="date" class="form-control mx-2">
+              <input type="date" class="form-control mx-2" id="fechaEgreso">
             </div>
             <div class="input-group mb-3">
-              <input type="text" class="form-control mx-2" placeholder="Descripción">
+              <input type="text" class="form-control mx-2" placeholder="Descripción" id="descEducacion">
           </div>
           <button class="btn btn-primary mx-2">Agregar Institución</button>
           </div>
@@ -139,17 +139,17 @@
           <h4 class="mx-2">Licencia y certificaciones</h4>
           <div class="col-md-12">
             <div class="input-group mb-3">
-              <input type="text" class="form-control mx-2" placeholder="Nombre">
-              <input type="text" class="form-control mx-2" placeholder="Emisora">
+              <input type="text" class="form-control mx-2" placeholder="Nombre" id="nombreCert">
+              <input type="text" class="form-control mx-2" placeholder="Emisora" id="nombreEmisora">
             </div>
             <div class="input-group mb-3">
               <div class="my-2 mx-2">Fecha de Expedición</div>
-              <input type="date" class="form-control mx-2">
+              <input type="date" class="form-control mx-2" id="fechaExpedicion">
               <input class="form-check-input mx-2 my-2" type="radio" name="presencial" id="rdpresencial"><em class="my-1">Esta credencial no caduca</em>       
             </div>
             <div class="input-group mb-3">
-              <input type="text" class="form-control mx-2" placeholder="ID de Credencial">
-              <input type="text" class="form-control mx-2" placeholder="URL de Credencial">
+              <input type="text" class="form-control mx-2" placeholder="ID de Credencial" id="idCred">
+              <input type="text" class="form-control mx-2" placeholder="URL de Credencial" id="urlCred">
             </div>
             <button class="btn btn-primary mx-2">Agregar Certificacion</button>
           </div>
