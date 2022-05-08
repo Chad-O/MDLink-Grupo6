@@ -1,0 +1,26 @@
+/*
+Middle Blue Green: #98ECDD
+Morning Blue: #93A392
+Laurel Green: #ADBF87
+Celadon: #BAD9A2
+Cambridge Blue: #9DC4B5
+*/
+body{
+    /*El fondo en tamaños "menores" en horizontal se repite*/
+    background-image: url("../../img/fondo.jpg");
+    background-size:cover;
+}
+
+.inputFoto{
+    cursor:pointer;
+    padding: 40%;
+    border-radius: 50%;
+    background-color: #9DC4B5;
+    justify-content: center;
+    justify-items: center;
+}
+.titulo{
+    text-align: center;
+    margin-top:1em;
+    text-transform: uppercase;
+}
