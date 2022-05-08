@@ -1,0 +1,20 @@
+.pildora{
+    background-color: bisque;
+    border-radius:20px;
+    margin:5px;
+    text-align: center;
+    vertical-align: auto;
+}
+#comentariosPac{
+    width: 200px;
+}
+.pildoraVertical{
+    background-color: beige;
+    border-radius: 20px;
+    margin:3px;
+    height:200px;
+    
+}
+.pilVCont{
+    margin-left:10%;    
+}
