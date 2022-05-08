@@ -8,6 +8,10 @@ Cambridge Blue: #9DC4B5
 body{
     background-color:#7af2e25b;
 }
+.titleServ{
+    text-shadow: 1px 1px;
+    font-weight: 900;
+}
 #login{
     width: 12em;   
     text-transform: uppercase;
