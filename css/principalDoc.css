@@ -2,4 +2,13 @@
     height: 10vh;
     width: 10vh;
     margin: 5% auto; 
+    background-color: #93A392;
+}
+
+.item{
+    height: 30vh;
+    width: 100%;
+    color: white; 
+    border-radius: 5%;
+    background-color: #BAD9A2;
 }

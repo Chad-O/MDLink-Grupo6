@@ -1,9 +1,13 @@
 <!--
     **************************************REGISTRO DE CAMBIOS**********************************************
     -------------------------------------------------------------------------------------------------------
-      FirstUpdate : Se añadio la parte de el usuario, donde va la foto del usuario y donde puede 
+    FirstUpdate :   Se añadio la parte de el usuario, donde va la foto del usuario y donde puede 
                     editar su perfil. -Javier 08/05/2022
-	  -------------------------------------------------------------------------------------------------------
+    
+    AddItem     :   Se ha creado el css/principalDoc.css donde tiene la clase foto-doc y la clase item.
+                        - item: le da la forma al item dentro del menu.
+                        - foto-doc: le da la forma de circulo y le da el color. -Javier 08/05/2022
+	-------------------------------------------------------------------------------------------------------
 -->
 
 <!DOCTYPE html>
@@ -17,14 +21,14 @@
     <title>Página principal</title>
 </head>
 <body>
-    <div class="container-fluid p-3">
+    <div class="container-fluid py-3">
         <!--
             Nombre de la pagina y parte del usuario
         -->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 text-lg-left text-center">
-                    <h2>Nombre de la página</h2>
+                <div class="col-md-4 text-lg-left text-center ">
+                    <h1>Nombre de la página</h1>
                 </div>
                 <div class="col-md-8">
                     <div class="row justify-content-end">
@@ -33,15 +37,52 @@
                             <a href="#">Editar Perfil</a>
                         </div>
                         <div class="col-md-2">
-                            <img src="..." alt="..." class="rounded-circle d-flex bg-dark foto-doc ">
+                            <img src="..." alt="..." class="rounded-circle d-flex foto-doc ">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- 3 primeros items -->
+        <div class="container-fluid my-3">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Menu</h2>
+                </div>
+            </div>
+            <!-- EMMET: div.row>(div.col-md-4.mt-3>div.item.p-2)*3 -->
+            <div class="row">
+                <div class="col-md-4 mt-3">
+                    <div class="item p-2">
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="item p-2">
+
+                    </div>
+                </div>
+                <div class="col-md-4 mt-3">
+                    <div class="item p-2">
+                    </div>
+                </div>
+            </div>
+            <!-- EMMET: div.row.mt-4>(div.col-md-3.mt-3>div.item.p-2)*4 -->
+            <div class="row mt-5">
+                <div class="col-md-3 mt-3">
+                    <div class="item p-2"></div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <div class="item p-2"></div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <div class="item p-2"></div>
+                </div>
+                <div class="col-md-3 mt-3">
+                    <div class="item p-2"></div>
+                </div>
+            </div>
+        </div>
     </div>
-
-
 
 </body>
 </html>
