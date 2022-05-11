@@ -2,6 +2,7 @@
     **************************************REGISTRO DE CAMBIOS**********************************************
     -------------------------------------------------------------------------------------------------------
     FirstUpdate :  Se hicieron la tabla y los botones. Aún no están ordenados. -Mauricio  10/05/2022
+    ResponsiveUpd: La página es responsive y los botones ya están ordenados. -Mauricio 11/05/2022
 	-------------------------------------------------------------------------------------------------------
 -->
 <!DOCTYPE html>
@@ -83,21 +84,31 @@
               FIN TABLA
               INICIO SELECCIONES
             -->
-            <div class="col-md-4 col-lg-5 my-5">
+            <div class="col-md-4  my-5">
               <div class="item p-2">
                 <h3 class="text-center">Próximo Paciente</h3>
                 <div class="row">
-                  <div class="col-md-5 mx-3">
+                  <div class="col-md-6">
                     <p id="nomPac">Nombre</p>
                   </div>
-                  <div class="col-md-5">
+                  <div class="col-md-6">
                     <p id="horAten">Horario de atención</p>
                   </div>
+                  <!--
+                    BOTONES
+                  -->
                 </div>
-                  <button class="btn btn-primary my-2 mx-3" id="mensaje">Enviar Mensaje</button>
-                  <button class="btn btn-primary my-2" id="iniCita">Inicializar Cita</button>
-                  <button class="btn btn-primary my-2" id="dataPac">Datos del Paciente</button>
-                  <button class="btn btn-primary my-2" id="histCita">Historial de Citas</button>
+                <div class="d-flex flex-row">
+                  <button class=" btn btn-primary btn-block my-2 me-3 w-50" id="mensaje">Enviar Mensaje</button>
+                  <button class=" btn btn-primary my-2 w-50" id="iniCita">Inicializar Cita</button>
+                </div>
+                <div class="d-flex flex-row">
+                  <button class="p-2 btn btn-primary my-2 me-3 w-50" id="dataPac">Datos del Paciente</button>
+                  <button class="p-2 btn btn-primary my-2 w-50" id="histCita">Historial de Citas</button>
+                </div>
+                <!--
+                  FIN BOTONES
+                -->
               </div>
             </div>
             <!--FIN SELECCIONES-->
