@@ -1,0 +1,20 @@
+.foto-doc{
+    height: 10vh;
+    width: 10vw;
+    margin: 5% auto; 
+    background-color: #93A392;
+}
+
+.item{
+    height: 30vh;
+    width: 100%;
+    color: white; 
+    border-radius: 1em;
+    background-color: #BAD9A2;
+}
+
+.item-busqueda{
+    color: white; 
+    border-radius: 1em;
+    background-color: #BAD9A2;
+}
