@@ -5,11 +5,16 @@ Laurel Green: #ADBF87
 Celadon: #BAD9A2
 Cambridge Blue: #9DC4B5
 */
+/*
+    Fondo Update.
+    Parece que en 300% no aparece el bug de repetición cada vez que se achica la pantalla.
+*/
 body{
     /*El fondo en tamaños "menores" en horizontal se repite*/
     background-image: url("../../img/fondo.jpg");
-    background-size:cover;
+    background-size:300%    
 }
+
 .titleServ{
     text-shadow: 1px 1px;
     font-weight: 900;
