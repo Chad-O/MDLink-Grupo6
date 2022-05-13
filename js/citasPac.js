@@ -4,6 +4,11 @@ Inicia recibiendo el Id de la tabla.
 En el momento inicial se quiere hacer el cambio así que switching queda en true.
 Una vez que entre a la parte que lo modifica se cambia a falso porque ya no se requiere el cambio.
 La dirección original es ascendente.
+La n es la posición de la columna que se quiere modificar.
+0 = Especialidad
+1 = Médico 
+2 = Horario
+3 = Fecha
 */
 function sortTable(n) {
   var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
