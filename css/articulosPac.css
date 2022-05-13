@@ -1,0 +1,27 @@
+.foto-doc{
+    height: 10vh;
+    width: 10vh;
+    margin: 5% auto; 
+    background-color: #93A392;
+}
+
+.item{
+    height: 30vh;
+    width: 100%;
+    color: white; 
+    border-radius: 1em;
+    background-color: #BAD9A2;
+}
+.fondo-color{
+    background-color: #BAD9A2;
+}
+.borde-circular{
+    border-radius: 1em;
+}
+.item-foto{
+    height: 30vh;
+    width: 100%;
+    border-radius: 1em;
+    color: dark; 
+    background-color: #BAD9A2;
+}
