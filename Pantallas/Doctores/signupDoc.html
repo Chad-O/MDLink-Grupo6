@@ -1,3 +1,11 @@
+<!--
+    **************************************REGISTRO DE CAMBIOS**********************************************
+    -------------------------------------------------------------------------------------------------------
+      AddRegisterButton: Se añadió botón para el registro, va en la parte final del documento, es responsive
+      		               hasta una pantalla de tamaño medio. -Javier 08/05/2022
+	  -------------------------------------------------------------------------------------------------------
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,23 +22,27 @@
 </head>
 <body>
   <div class="container-fluid">
+
     <div class="row">
       <div class="col-md-4">
         <div class="nomPlat mx-2 my-2">Nombre de la plataforma</div>
       </div>
-      <!--Div fantasma-->
-      <div class="col-md-4">
-      </div>
-      <div class="col-md-4">
-      </div>
     </div>
+
     <div class="row">
       <div class="col-md-12">
         <h1 class="titulo">Únete a nuestro equipo de especialistas</h1>
       </div>
     </div>
+
+    <!--
+      Acá empieza la parte del formulario
+    -->
     <div class="row">
       <div class="col-md-8 mt-5">
+        <!-- 
+          Parte de datos personales
+        -->
         <div class="row">
           <h4 class="mx-2">Datos Personales</h4>
           <div class="col-md-12">
@@ -60,6 +72,9 @@
             </div>            
           </div>
         </div>
+        <!--
+          PARTE DE DATOS DEL CONTACTO
+        -->
         <div class="row mt-4">
           <h4 class="mx-2">Datos de contacto</h4>
           <div class="col-md-12">
@@ -116,6 +131,10 @@
                 <input type="text" class="form-control mx-2" placeholder="Link de plataforma de atencion / Direccion de consultorio" aria-label="linkAten" id="dirAtencion">
           </div>
         </div>
+
+        <!--
+          PARTE DE EDUCACIÓN
+        -->
         <div class="row mt-4">
           <h4 class="mx-2">Educación</h4>
           <div class="col-md-12">
@@ -155,36 +174,40 @@
           </div>
         </div>
       </div>
+
+      <!--
+        CIRCULITO PARA AGREGAR LA FOTO
+      -->
       <div class="col-md-4 mt-5">
-        <!--4 XD div fanstasma-->
-        <div class="row">
-          <div class="col-md-12 mt-5">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 mt-5">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 mt-5">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 mt-5">
-          </div>
-        </div>
         <div class="row">
           <div class="col-md-12 mt-5">
             <form class="inputFoto">
-              Ingresa tu foto
+              <label for="foto">Agregar Foto</label>
               <input type="file" id="foto" name="fotoPerf" accept="image/png, image/jpg, image/jpeg">
             </form>
           </div>
-          <button class="btn btn-primary mx-2">Registrarme</button>
-
-        </div>        
+        </div>
+      </div>
+    </div> <!-- FIN DIV DE FORMULARIO-->
+    
+    <!--
+      -------------------------------------------------------------------------------------------------------
+      CAMBIO AddRegisterButton
+      -------------------------------------------------------------------------------------------------------
+    -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 ">
+          <div class="d-grid gap-2 my-5">
+            <button type="button" name="registro" id="registro" class="btn btn-primary">
+              Registrarme
+            </button>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+    
+  </div> <!-- FIN DIV DE CONTENEDOR -->
+    
 </body>
 </html>
