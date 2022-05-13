@@ -12,3 +12,16 @@
     border-radius: 1em;
     background-color: #BAD9A2;
 }
+
+.item-foro{
+    color: black; 
+    border-radius: 1em;
+    background-color: #BAD9A2;
+}
+
+.item-pregunta{
+    color: black;
+    border-radius: 1em;
+    background-color: white;
+    height: 15vh;
+}

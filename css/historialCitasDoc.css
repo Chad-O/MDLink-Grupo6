@@ -6,9 +6,15 @@
 }
 
 .item{
-    height: 30vh;
     width: 100%;
     color: white; 
-    border-radius: 1em;
+    background-color: #BAD9A2;
+}
+
+.barra-busqueda{
+    width: 100%;
+    color: white; 
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
     background-color: #BAD9A2;
 }
