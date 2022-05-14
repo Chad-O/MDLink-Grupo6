@@ -1,0 +1,58 @@
+/*
+Primero, un flex box que contenga todos los tabs
+*/
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*
+Segundo, el label del "radio" input tiene que reemplazar el input por completo,
+entonces haces que se vea "bonito" dentro del flex box.
+El Cursor pointer hace que el cursor cambie a la "manito de selección".
+La transición hace que el cambio de background a blanco no inmediato y se desaparesca.
+*/
+.tabs label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    background-color: pink;
+    font-weight: bold;
+    transition: background ease 0.3s;
+}
+/*
+Esta es la "caja" de datos que sale de cada una de los doctores.
+Display:none, hace que no se muestre ninguna.
+*/
+.tabs .tab {
+    order: 9;
+    flex-grow: 1;
+    display: none;
+    background: #fff;
+    box-shadow: -10px 10px 0px 0px black;
+}
+/*
+Quita el input de radio y lo "reemplaza" por la caja. La caja entera ya es el radio input.
+*/
+.tabs input[type="radio"] {
+    display: none;
+}
+/*
+Cuando eliges un tab el fondo cambia a blanco "checked"
+*/
+.tabs input[type="radio"]:checked + label {
+    background: #fff;
+}
+/*
+Las cajas de información están en display none. O sea, no deberían mostrarse nunca. Pero,
+cuando el input radio está "checked" se cambia específicamente ese en base al label y tab
+a display:block.
+Cuando cambias a otro el que ahora ya no está "checked" vuelve a display:none automaticamente.
+*/
+.tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+}
+
+   
