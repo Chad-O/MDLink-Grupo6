@@ -29,6 +29,8 @@ Display:none, hace que no se muestre ninguna.
 .tabs .tab {
     order: 9;
     flex-grow: 1;
+    width: 100%;
+    height: auto;
     display: none;
     background: #fff;
     box-shadow: -10px 10px 0px 0px black;
@@ -54,5 +56,12 @@ Cuando cambias a otro el que ahora ya no está "checked" vuelve a display:none a
 .tabs input[type="radio"]:checked + label + .tab {
     display: block;
 }
-
+.fecha{
+    margin:auto;
+    position:relative;
+    width:7em;
+}
+#diagText{
+    height:60%;
+}
    
