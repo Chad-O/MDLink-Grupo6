@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../css/estilo.css">    
     <title>Document</title>
 </head>
-<body>
+<body>  
     <div class="container-fluid py-3">
         <div class="container-fluid">
             <div class="row">
@@ -29,26 +29,65 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid p-4">
+    <div class="container-fluid px-4 ">
         <div class="row">
-            <div class="col-8">
-                <h2 class="titulo-color5">Resumen de Pago</h2>
+            <div class="col-md-8">
             </div>
-            <div class="col-4">
-                <h2 class="titulo-color5">Recomendaciones</h2>
+            <div class="col-md-4">
             </div>
         </div>
         <div class="row">
-            <div class="col-8 color-item3 border-item p-4">
-                <p>Especialista: </p>
-                <p>Área: </p>
-                <p>Fecha: </p>
-                <p>Hora: </p>
-                <p>Método de entrega de los medicamentos: </p>
-                <p>Direcci&oacute;n: </p>
+            <div class="col-md-8 p-4">
+                <h2 class="text-center text-md-start text-color5">Resumen de Pago</h2>
+                <div class="border-item color-item3 p-4">
+                    <p>Especialista: </p>
+                    <p>Área: </p>
+                    <p>Fecha: </p>
+                    <p>Hora: </p>
+                    <p>Método de entrega de los medicamentos: </p>
+                    <p>Direcci&oacute;n: </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 offset-md-6 mt-2">
+                        <div class="color-item2 p-3 w-100 rounded-3">
+                            <span class="text-white fs-3">Total a pagar</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-4">
-                
+            <div class="col-md-4">
+                <h2 class="text-center text-md-end text-color5">Recomendaciones</h2>
+                <div class="color-item5 p-3 h-md-100">
+                    <p class="text-decoration-underline fw-bold">
+                        Citas Virtuales
+                    </p>
+                    <ul>
+                        <li>Verificar conexión a internet previo a la hora de la cita</li>
+                        <li>Estar en linea 15 minutos antes de la hora pactada</li>
+                        <li>En lo posible, estar en un ambiente tranquilo y utilizar audifonos</li>
+                    </ul>
+                    <p class="text-decoration-underline fw-bold">
+                        Citas Presenciales
+                    </p>
+                    <ul>
+                        <li>Uso de mascarilla KN95</li>
+                        <li>Mantenga distancia de 1 metro</li>
+                        <li>Registrar llegada 15 minutos antes de su cita</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 px-4">
+                <div class="offset-md-10 col">
+                    <div class="d-grid gap-2">
+                      <button type="button" id="pago" class="btn color-item5"> 
+                          <span class="text-white">
+                              Ir a pagar
+                          </span>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
