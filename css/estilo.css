@@ -37,7 +37,7 @@ h1{
     background-color: #9DC4B5;
     border: #9DC4B5;
 }
-
+/*colores border*/
 .border-color-item1{
     border: #98ECDD;
 }
@@ -54,7 +54,7 @@ h1{
     border: #9DC4B5;
 }
 
-
+/*radius*/
 .border-item1{ 
     border-radius: 1em;
 }
