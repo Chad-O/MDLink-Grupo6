@@ -37,10 +37,37 @@ h1{
     background-color: #9DC4B5;
     border: #9DC4B5;
 }
+/*colores border*/
+.border-color-item1{
+    border: #98ECDD;
+}
+.border-color-item2{
+    border: #93A392;
+}
+.border-color-item3{
+    border: #ADBF97;
+}
+.border-color-item4{
+    border: #BAD9A2;
+}
+.border-color-item5{
+    border: #9DC4B5;
+}
 
-.border-item{
+/*radius*/
+.border-item1{ 
+    border-radius: 1em;
+}
+
+.border-item2{ 
+    border-radius: 2em;
+}
+
+.border-item3{ /*comun*/
     border-radius: 3em;
 }
+
+
 
 .text-color1{
     color: #98ECDD;
@@ -61,6 +88,10 @@ h1{
 
 .text-color5{
     color: #9DC4B5;
+}
+
+.altura-item{
+    height: 25vh;
 }
 
 .icono-grande{
@@ -88,8 +119,4 @@ h1{
     background-color: #BAD9A2;
 }
 
-/*Boton sign up y login*/
-#BtnCuenta{
-    border-color: #9dc4b5ff;
-}
 
