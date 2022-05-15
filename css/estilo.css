@@ -3,6 +3,13 @@ h1{
     text-transform: uppercase;
 }
 
+/*
+    Los colores los estamos separando para los items 
+    se hace una clase para cada diferente color
+    de esta manera ubicamos los colores de manera 
+    más ordenada a la hora de hacer el codigo
+ */
+
 .color-item1{
     background-color: #98ECDD;
     border: #98ECDD;
@@ -14,10 +21,14 @@ h1{
     border: #93A392;
 }
 
+/*
+    color pastilla
+*/
 .color-item3{
     background-color: #ADBF97;
     border: #ADBF97;
 }
+
 .color-item4{
     background-color: #BAD9A2;
     border: #BAD9A2;
