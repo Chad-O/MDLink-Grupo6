@@ -32,7 +32,24 @@ h1{
 }
 
 .titulo-color1{
-    color: #bad9a2ff;
+    color: #98ECDD;
+
+}
+
+.titulo-color2{
+    color: #93A392;
+}
+
+.titulo-color3{
+    color: #ADBF97;
+}
+
+.titulo-color4{
+    color: #bad9a2;
+}
+
+.titulo-color5{
+    color: #9DC4B5;
 }
 
 .icono-grande{
@@ -47,9 +64,21 @@ h1{
     width: 10%;
 }
 
+.foto-doc{
+    height: 10vh;
+    width: 10vh;
+    margin: 5% auto; 
+    background-color: #93A392;
+}
 
+.item{
+    width: 100%;
+    color: white; 
+    background-color: #BAD9A2;
+}
 
 /*Boton sign up y login*/
 #BtnCuenta{
     border-color: #9dc4b5ff;
 }
+
