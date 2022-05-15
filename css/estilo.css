@@ -93,7 +93,9 @@ h1{
 .altura-item{
     height: 25vh;
 }
-
+.altura-item-menu{
+    height: 30vh;
+}
 .icono-grande{
     width: 45%;
 }
