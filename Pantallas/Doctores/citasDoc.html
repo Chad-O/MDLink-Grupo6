@@ -3,6 +3,7 @@
     -------------------------------------------------------------------------------------------------------
     FirstUpdate :  Se hicieron la tabla y los botones. Aún no están ordenados. -Mauricio  10/05/2022
     ResponsiveUpd: La página es responsive y los botones ya están ordenados. -Mauricio 11/05/2022
+    fixColors: Se arreglo el corlo de los botones, se ajustó a sketch los colores y el layout. 15/05/2022
 	-------------------------------------------------------------------------------------------------------
 -->
 <!DOCTYPE html>
@@ -13,6 +14,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link href="../../css/citasDoc.css" rel="stylesheet">
+  <link href="../../css/estilo.css" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
@@ -51,9 +53,9 @@
         <!--
           TABLA 
         -->
-        <div class="row">
+        <div class="row justify-content-center">
             <div class="col-8 my-4">
-              <table class="table table-hover table-responsive">
+              <table class="table table-hover table-responsive text-center ">
                 <thead>
                   <tr>
                     <th scope="col">#</th>
@@ -85,7 +87,7 @@
               INICIO SELECCIONES
             -->
             <div class="col-md-4  my-5">
-              <div class="item p-2">
+              <div class="item p-2 border-item1">
                 <h3 class="text-center">Próximo Paciente</h3>
                 <div class="row">
                   <div class="col-md-6">
@@ -99,12 +101,12 @@
                   -->
                 </div>
                 <div class="d-flex flex-row">
-                  <button class=" btn btn-primary btn-block my-2 me-3 w-50" id="mensaje">Enviar Mensaje</button>
-                  <button class=" btn btn-primary my-2 w-50" id="iniCita">Inicializar Cita</button>
+                  <button class=" btn btn-light btn-block my-2 me-3 w-50" id="mensaje">Enviar Mensaje</button>
+                  <button class=" btn btn-light my-2 w-50" id="iniCita">Inicializar Cita</button>
                 </div>
                 <div class="d-flex flex-row">
-                  <button class="p-2 btn btn-primary my-2 me-3 w-50" id="dataPac">Datos del Paciente</button>
-                  <button class="p-2 btn btn-primary my-2 w-50" id="histCita">Historial de Citas</button>
+                  <button class="p-2 btn btn-light my-2 me-3 w-50" id="dataPac">Datos del Paciente</button>
+                  <button class="p-2 btn btn-light my-2 w-50" id="histCita">Historial de Citas</button>
                 </div>
                 <!--
                   FIN BOTONES
