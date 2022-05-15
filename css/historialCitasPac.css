@@ -16,9 +16,10 @@ La transición hace que el cambio de background a blanco no inmediato y se desap
     justify-content: center;
     align-items: center;
     padding: 1rem 1.5rem;
-    margin-right: 0.2rem;
+    margin-right: 0.4rem;
     cursor: pointer;
-    background-color: pink;
+    background-color: #ADBF97;
+    border: #ADBF97;
     font-weight: bold;
     transition: background ease 0.3s;
 }
@@ -33,7 +34,7 @@ Display:none, hace que no se muestre ninguna.
     height: auto;
     display: none;
     background: #fff;
-    box-shadow: -10px 10px 0px 0px black;
+    box-shadow: -5px 5px 0px 0px black;
 }
 /*
 Quita el input de radio y lo "reemplaza" por la caja. La caja entera ya es el radio input.
