@@ -3,6 +3,7 @@
     -------------------------------------------------------------------------------------------------------
       AddRegisterButton: Se añadió botón para el registro, va en la parte final del documento, es responsive
       		               hasta una pantalla de tamaño medio. -Javier 08/05/2022
+      addLinkSignupDoc: Se añadió el enlace a la página principal del signup para el doctor. -Javier
 	  -------------------------------------------------------------------------------------------------------
 -->
 
@@ -17,6 +18,7 @@
   <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css” />
   <!--Iconos css que sí funcionaron :) -->
   <link href='https://css.gg/search.css' rel='stylesheet'>
+  <link rel="stylesheet" href="../../css/estilo.css">
   <link rel="stylesheet" href="../../css/signupDoc.css">
   <title>Sign-up Doctores</title>
 </head>
@@ -25,13 +27,13 @@
 
     <div class="row">
       <div class="col-md-4">
-        <div class="nomPlat mx-2 my-2">Nombre de la plataforma</div>
+        <h1>Nombre de la plataforma</h1>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-12">
-        <h1 class="titulo">Únete a nuestro equipo de especialistas</h1>
+      <div class="col-md">
+        <h1 class="text-dark text-center mt-3">Únete a nuestro equipo de especialistas</h1>
       </div>
     </div>
 
@@ -151,7 +153,7 @@
             <div class="input-group mb-3">
               <input type="text" class="form-control mx-2" placeholder="Descripción" id="descEducacion">
           </div>
-          <button class="btn btn-primary mx-2">Agregar Institución</button>
+          <button class="btn btn-primary mx-2 color-item3">Agregar Institución</button>
           </div>
         </div>
         <div class="row mt-4">
@@ -170,7 +172,7 @@
               <input type="text" class="form-control mx-2" placeholder="ID de Credencial" id="idCred">
               <input type="text" class="form-control mx-2" placeholder="URL de Credencial" id="urlCred">
             </div>
-            <button class="btn btn-primary mx-2">Agregar Certificacion</button>
+            <button class="btn btn-primary mx-2 color-item3">Agregar Certificacion</button>
           </div>
         </div>
       </div>
@@ -199,9 +201,9 @@
       <div class="row justify-content-center">
         <div class="col-md-6 ">
           <div class="d-grid gap-2 my-5">
-            <button type="button" name="registro" id="registro" class="btn btn-primary">
+            <a type="button" name="registro" class="btn color-item1" href="../Doctores/principalDoc.html">
               Registrarme
-            </button>
+            </a>
           </div>
         </div>
       </div>

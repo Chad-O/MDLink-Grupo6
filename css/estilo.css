@@ -3,6 +3,16 @@ h1{
     text-transform: uppercase;
 }
 
+a:link, a:visited, a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+#rating{
+    width: 70%;
+ }
+
+
 /*
     Los colores los estamos separando para los items 
     se hace una clase para cada diferente color
@@ -92,7 +102,9 @@ h1{
 .altura-item{
     height: 25vh;
 }
-
+.altura-item-menu{
+    height: 30vh;
+}
 .icono-grande{
     width: 45%;
 }
@@ -105,6 +117,22 @@ h1{
     width: 10%;
 }
 
+/*
+    Las imagenes de las pantallas principales voy a necesitar
+    que sean de este tipo 
+
+*/
+
+.icono-principal{
+    height: 25vh;
+    width: 25vh;
+}
+
+.icono-principal-largo {
+    height: 25vh;
+    width: 40vh;
+}
+
 .foto-doc{
     height: 10vh;
     width: 10vh;
@@ -114,8 +142,8 @@ h1{
 
 .item{
     width: 100%;
-    color: white; 
     background-color: #BAD9A2;
+    border-radius: 1em;
 }
 
 

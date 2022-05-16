@@ -28,41 +28,35 @@ body{
 .foro{
     width: 100%;
     text-transform: uppercase;
-    background-color:#9dc4b55e;
     font-weight: 500;
     box-shadow: 2px 2px 0.25em;
 }
 .calmed{
     width: 50%;
     text-transform: uppercase;
-    background-color:#9dc4b55e;
     font-weight: 500;
     box-shadow: 2px 2px 0.25em;
 }
 .notimp{
     width: 100%;
     text-transform: uppercase;
-    background-color:#9dc4b55e;
     font-weight: 500;
     box-shadow: 2px 2px 0.25em;
 }
 .areaEsp{
     margin-top: 0.75em;
     padding-left: 20px;
-    background-color:#9dc4b55e;
     height: 2.em;
 }
 #login{
     width: 12em;   
     text-transform: uppercase;
-    background-color:#9dc4b55e;
     font-weight: 500;
     box-shadow: 2px 2px 0.25em;
 }
 #signup{
     width: 12em;
     text-transform: uppercase;
-    background-color:#9dc4b55e;
     font-weight: 500;
     box-shadow: 2px 2px 0.25em;
 }
