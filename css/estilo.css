@@ -2,6 +2,9 @@ h1{
     color: #93a392ff;
     text-transform: uppercase;
 }
+.linkNom{
+    text-decoration: none;
+}
 
 /*
     Los colores los estamos separando para los items 
