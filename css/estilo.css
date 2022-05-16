@@ -5,6 +5,9 @@ h1{
 .linkNom{
     text-decoration: none;
 }
+#rating{
+    width: 70%;
+ }
 
 /*
     Los colores los estamos separando para los items 
