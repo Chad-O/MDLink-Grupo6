@@ -2,9 +2,13 @@ h1{
     color: #93a392ff;
     text-transform: uppercase;
 }
-.linkNom{
+
+a:link, a:visited, a:hover, a:active
+{
+    color: #000000;
     text-decoration: none;
 }
+
 
 /*
     Los colores los estamos separando para los items 
@@ -111,6 +115,22 @@ h1{
     width: 10%;
 }
 
+/*
+    Las imagenes de las pantallas principales voy a necesitar
+    que sean de este tipo 
+
+*/
+
+.icono-principal{
+    height: 25vh;
+    width: 25vh;
+}
+
+.icono-principal-largo {
+    height: 25vh;
+    width: 40vh;
+}
+
 .foto-doc{
     height: 10vh;
     width: 10vh;
@@ -121,6 +141,7 @@ h1{
 .item{
     width: 100%;
     background-color: #BAD9A2;
+    border-radius: 1em;
 }
 
 
