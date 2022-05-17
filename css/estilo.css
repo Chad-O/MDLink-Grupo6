@@ -77,7 +77,9 @@ a:link, a:visited, a:hover, a:active
     border-radius: 3em;
 }
 
-
+.text-justify{
+    text-align: justify;
+}
 
 .text-color1{
     color: #98ECDD;
