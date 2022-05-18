@@ -20,6 +20,7 @@
   <link href='https://css.gg/search.css' rel='stylesheet'>
   <link rel="stylesheet" href="../../css/estilo.css">
   <link rel="stylesheet" href="../../css/signupDoc.css">
+  <script src="../../signupDoc.js"></script>
   <title>Sign-up Doctores</title>
 </head>
 <body>
@@ -139,7 +140,8 @@
         -->
         <div class="row mt-4">
           <h4 class="mx-2">Educación</h4>
-          <div class="col-md-12">
+          <div id="educacion">
+          <div class="col-md-12" id="edc">
             <div class="input-group mb-3">
               <input type="text" class="form-control mx-2" placeholder="Institución educativa" id="instEducactiva">
               <input type="text" class="form-control mx-2" placeholder="Título" id="tituloExpedido">
@@ -153,12 +155,13 @@
             <div class="input-group mb-3">
               <input type="text" class="form-control mx-2" placeholder="Descripción" id="descEducacion">
           </div>
-          <button class="btn btn-primary mx-2 color-item3">Agregar Institución</button>
           </div>
+        </div>
+        <button class="btn btn-primary mx-2 color-item3 w-50 ms-4" onclick="addEd()" id="addInst">Agregar Institución</button>
         </div>
         <div class="row mt-4">
           <h4 class="mx-2">Licencia y certificaciones</h4>
-          <div class="col-md-12">
+          <div class="col-md-12" id="licert">
             <div class="input-group mb-3">
               <input type="text" class="form-control mx-2" placeholder="Nombre" id="nombreCert">
               <input type="text" class="form-control mx-2" placeholder="Emisora" id="nombreEmisora">
@@ -172,8 +175,9 @@
               <input type="text" class="form-control mx-2" placeholder="ID de Credencial" id="idCred">
               <input type="text" class="form-control mx-2" placeholder="URL de Credencial" id="urlCred">
             </div>
-            <button class="btn btn-primary mx-2 color-item3">Agregar Certificacion</button>
           </div>
+          <button class="btn btn-primary mx-2 color-item3 w-50 ms-4">Agregar Certificacion</button>
+
         </div>
       </div>
 
