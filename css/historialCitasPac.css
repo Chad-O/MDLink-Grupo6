@@ -33,8 +33,6 @@ Display:none, hace que no se muestre ninguna.
     width: 100%;
     height: auto;
     display: none;
-    background: #fff;
-    box-shadow: -5px 5px 0px 0px black;
 }
 /*
 Quita el input de radio y lo "reemplaza" por la caja. La caja entera ya es el radio input.
