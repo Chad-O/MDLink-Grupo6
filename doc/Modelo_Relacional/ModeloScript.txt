@@ -1,0 +1,112 @@
+Table PERSONAS{
+    ID int [pk, increment]
+    NOM varchar(255) [not null]
+    AP_PAT varchar(255) [not null]
+    AP_MAT varchar(255) [not null]
+    FH_CREACION datetime [not null]
+    FH_NACIMIENTO datetime [not null]
+    DNI varchar(8) [not null]
+    CORREO varchar(40) [not null]
+    TELEF varchar(12) 
+    NO_ROL int [ref: > ROLES.NO_ROL]
+}
+
+Table ROLES{
+  NO_ROL int [pk]
+  TIPO_ROL varchar(100)
+}
+
+Table MEDICOS{
+  NO_MED int [pk]
+  PER_ID int [ref: - PERSONAS.ID]
+  
+}
+Table CERTIFICADOS{
+  NO_MED int [ref: > MEDICOS.NO_MED]
+  CERTIFICADO varchar(100)
+}
+
+Table PACIENTES{
+  NO_PAC int [pk]
+  PER_ID int [ref: - PERSONAS.ID]
+  NOM_USER varchar(20) [not null]
+}
+
+Table CITAS{
+  CITA_ID int [pk, increment]
+  NO_MED int [ref: > MEDICOS.NO_MED]
+  NO_PAC int [ref: > PACIENTES.NO_PAC]
+  FG_ESTADO boolean [not null] // flag estado de la cita
+  FG_MEDICINAS boolean [not null] // si desea comprar medicinas o no
+}
+
+Table ALERGIAS{
+  NO_PAC int [ref: > PACIENTES.NO_PAC]
+  ALERGIA_CONTENIDO varchar(100)
+}
+
+Table HORARIOS_MEDICOS{
+  ID_HORARIO int [pk, increment]
+  NO_MED int [ref: > MEDICOS.NO_MED]
+  DIA varchar(3) [not null]
+  HORA_INICIO time [not null]
+  HORA_FIN time [not null]
+  FG_VIRTUAL boolean [not null]
+  DIRECCION varchar(400)
+  LINK varchar(400)
+}
+
+table HORARIOS_CITAS{
+  ID_HORARIO int [pk, increment]
+  ID_HORARIO_MEDICO int [ref: > HORARIOS_MEDICOS.ID_HORARIO]
+  CITA_ID int [ref: - CITAS.CITA_ID]
+  HORA_INICIO time [not null]
+  HORA_FIN time [not null]
+}
+
+table HISTORIAL_MEDICO{
+  ID_HISTORIAL int [pk]
+  NO_MED int [ref: > MEDICOS.NO_MED]
+  NO_PAC int [ref: > PACIENTES.NO_PAC]
+  DIAGN varchar(500)
+  RECETA varchar(500)
+}
+
+table DIAG_CITA{
+  ID_DIAG int [pk]
+  ID_CITA int [ref: - CITAS.CITA_ID]
+  DIAGN varchar(500)
+  RECETA varchar(500)
+  FH_SGTECITA datetime
+}
+
+table VAL_MEDICO{
+  ID_CITA int [ref: - CITAS.CITA_ID]
+  NO_MED int [ref: > MEDICOS.NO_MED]
+  VAL int 
+  COMENTARIO varchar(500) 
+}
+
+table PREGUNTAS_PRIV{
+  ID_PREGUNTA int [pk]
+  NO_MED int [ref: > MEDICOS.NO_MED]
+  NO_PAC int [ref: > PACIENTES.NO_PAC]
+  ID_CITA int [ref: > CITAS.CITA_ID]
+  PREGUNTA varchar(1000)
+  RESPUESTA varchar(1000)
+}
+
+table POSTS{
+  ID_POST int [pk]
+  NO_PAC int [ref: > PACIENTES.NO_PAC]
+  POST varchar(1000)
+  FECHA_CREACION datetime
+}
+
+table REPLIES{
+  ID_REPLY int [pk]
+  NO_MED int [ref: > MEDICOS.NO_MED]
+  ID_POST int [ref: > POSTS.ID_POST]
+  CONTENIDO varchar(1000)
+  FECHA_CREACION datetime
+}
