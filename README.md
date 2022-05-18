@@ -13,5 +13,5 @@ Aplicación web de plataforma de citas médicas en línea. *MDLink*
 
 ## Diagrama Modelo Relacional
 
-- Link de Script [Modelo Relacional]()
-- Link de Esquema [Modelo Relacional]()
+- Link de Script [Modelo Relacional](https://github.com/Chad-O/Pw-grupo6/blob/master/doc/Modelo_Relacional/ModeloScript.txt)
+- Link de Esquema [Modelo Relacional](https://github.com/Chad-O/Pw-grupo6/blob/master/doc/Modelo_Relacional/ModeloDiagrama.pdf)
