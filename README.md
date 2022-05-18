@@ -9,7 +9,7 @@ Aplicación web de plataforma de citas médicas en línea. *MDLink*
 ## Mockups
 
 - Link de [MockUps](https://docs.google.com/drawings/d/1IlhPkF2gRAlWUt00z6HU51ozRbY-JErL1zwr8ZAcwa4/edit?usp=sharing) solo visualización
-- Enlace de PDF en github
+- Enlace de [PDF](https://github.com/Chad-O/Pw-grupo6/blob/master/doc/MockUps/MockUps.pdf) en github
 
 ## Diagrama Modelo Relacional
 
