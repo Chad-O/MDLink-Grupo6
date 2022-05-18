@@ -148,4 +148,8 @@ a:link, a:visited, a:hover, a:active
     border-radius: 1em;
 }
 
+td.color-yes{
+    background-color: #BAD9A2;
+}
+
 
