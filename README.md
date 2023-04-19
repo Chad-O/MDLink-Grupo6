@@ -1,5 +1,6 @@
 # Trabajo Programación WEB  **MDLink**
-Web application for booking medical appointments built in React.js and Node.js. :-
+
+Web application for booking medical appointments built in React.js and Node.js. 
 
 Aplicación web de plataforma de citas médicas en línea. *MDLink*
 ## Integrantes
